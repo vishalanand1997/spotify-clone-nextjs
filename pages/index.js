@@ -3,9 +3,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
-    >
+    <div className="bg-black h-screen overflow-hidden">
       <Head>
         <title>Spotify 2.0</title>
       </Head>
